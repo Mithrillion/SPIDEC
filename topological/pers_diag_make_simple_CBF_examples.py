@@ -1,12 +1,10 @@
 # %%
+import sys
+sys.path.append("..")
 from topological.utils.tda_tools import *
 import gtda.homology as ghm
-import gtda.diagrams as gpd
-import gtda.time_series as gts
-import gtda.plotting as gplot
 import sklearn.datasets as skds
 from pyts.datasets import make_cylinder_bell_funnel
-from sklearn.decomposition import PCA
 
 hv.extension("bokeh")
 
