@@ -160,3 +160,4 @@ external/
 topological/outputs
 topological/plots
 topological/ticc_temp
+!data/synthetic/*.mat
